@@ -19,8 +19,7 @@ export class SearchComponent implements OnInit {
     console.log(termino);
     this.sptotifyService.getArtista(termino)
     .subscribe((result: any) => {
-      console.log(result.artists.items);
-      this.artistas = result.artists.items;
+      this.artistas = result;
     });
 
   }
