@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators';
 })
 export class SpotifyService {
 
-  token = 'BQBv7fhZUJujACj7Yo405vSkvbeikl5BWBSu5f3oLi6Bj4jqZpf2cAX0BpCp0NXhykUUFgFbmE2OuSoav5o';
+  token = 'BQB8YMZULbBEmlWzNU6mbrsArrgURLFDi2zBjw_GfxG8qwZVGUiQz75vf1-DuuNtTMcrEclCPsT_hxwL2rM';
   albums = 'albums';
   artists = 'artists';
 

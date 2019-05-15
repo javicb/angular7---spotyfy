@@ -14,6 +14,7 @@ import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.compone
 
 // Pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     NavbarComponent,
     SearchComponent,
     NoimagePipe,
-    TarjetasComponent
+    TarjetasComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
