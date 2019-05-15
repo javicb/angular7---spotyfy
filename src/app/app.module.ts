@@ -10,6 +10,7 @@ import { ArtistaComponent } from './components/artista/artista.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { SearchComponent } from './components/search/search.component';
+import { TarjetasComponent } from './components/shared/tarjetas/tarjetas.component';
 
 // Pipes
 import { NoimagePipe } from './pipes/noimage.pipe';
@@ -21,7 +22,8 @@ import { NoimagePipe } from './pipes/noimage.pipe';
     HomeComponent,
     NavbarComponent,
     SearchComponent,
-    NoimagePipe
+    NoimagePipe,
+    TarjetasComponent
   ],
   imports: [
     BrowserModule,
